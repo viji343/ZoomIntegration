@@ -1,0 +1,13 @@
+{
+    "development": {
+        "_comment": "***** THIS IS THE KATIE'S LOCAL ENVIRONMENT *******",
+        "username": "root",
+        "password": "",
+        "database": "beam",
+        "host": "localhost",
+        "port": "3306",
+        "dialect": "mysql",
+        "ZoomApiKey": "FhrJcN7JQEWOHaC1LDhJbw",
+        "ZoomApiSecret": "9OYSqVLRRZomOd7rv8viqb5rpPMRMQeVtLKO"
+    }
+}

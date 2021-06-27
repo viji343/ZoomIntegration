@@ -1,0 +1,12 @@
+#!/usr/bin/env node
+var debug = require('debug')('vactivity');
+var app = require('../app');
+
+app.set('port', process.env.PORT || 3001);
+//models.sequelize.sync({force:true}).success(function () {
+var server = app.listen(app.get('port'), '0.0.0.0', function () {
+  debug('Express server listening on port ' + server.address().port);
+  console.log('Example app listening at http://%s:%s', '0.0.0.0', server.address().port);
+
+});
+
