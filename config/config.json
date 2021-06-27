@@ -1,9 +1,9 @@
 {
     "development": {
-        "_comment": "***** THIS IS THE KATIE'S LOCAL ENVIRONMENT *******",
+        "_comment": "***** THIS IS THE LOCAL ENVIRONMENT *******",
         "username": "root",
         "password": "",
-        "database": "beam",
+        "database": "db",
         "host": "localhost",
         "port": "3306",
         "dialect": "mysql",
